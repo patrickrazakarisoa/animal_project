@@ -1,4 +1,4 @@
-This appli means to show you the relations between pages to objets and objets to objects.
+This appli means to show you the relations between pages to objects and objets to objects.
 
 How to install the application:
 
