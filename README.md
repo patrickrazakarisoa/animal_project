@@ -4,7 +4,7 @@ How to install the application:
 
 1- download or "git clone https://github.com/patrickrazakarisoa/animal_project.git"
 
-  USE THESE COMMANDS IN ORDER ON YOUR TERMINAL (cmd or vscode for example)
+  USE THESE TERMINAL COMMANDS BY ORDER!! (on bash, cmd or vscode for example)
   
 2- composer install
 
@@ -16,4 +16,8 @@ How to install the application:
 
 6- php bin/console doctrine:fixtures:load
 
-7- that all... ENJOY!! 
+7- install symfony commands from: https://symfony.com/download
+
+8- symfony server:start
+
+9- ENJOY!!!!
