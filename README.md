@@ -7,8 +7,13 @@ How to install the application:
   USE THESE COMMANDS IN ORDER ON YOUR TERMINAL (cmd or vscode for example)
   
 2- composer install
+
 3- php bin/console doctrine:database:create
+
 4- php bin/console make:migration 
+
 5- php bin/console doctrine:database:migrate
+
 6- php bin/console doctrine:fixtures:load
+
 7- that all... ENJOY!! 
