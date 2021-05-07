@@ -16,7 +16,7 @@ class AnimalController extends AbstractController
     public function index(AnimalRepository $repository): Response
     {
         $animaux = $repository->findAll();
-        return $this->render('animal/index.html.twig', [
+        return $this->render('animal/animaux.html.twig', [
             "animaux" => $animaux
         ]);
     }

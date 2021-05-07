@@ -20,7 +20,7 @@ class ContinentController extends AbstractController
     public function index(ContinentRepository $repository): Response
     {
         $continents = $repository->findAll();
-        return $this->render('continent/index.html.twig', [
+        return $this->render('continent/continents.html.twig', [
             'continents' => $continents,
         ]);
     }
